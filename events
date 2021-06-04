@@ -1,0 +1,4 @@
+#!/usr/bin/bash
+export PYTHONPATH=$PYTHONPATH:/usr/local/bin
+#python -c "import sys; print(sys.path)"
+python -m Events $@
